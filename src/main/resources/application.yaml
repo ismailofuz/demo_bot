@@ -1,0 +1,37 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+spring:
+  datasource:
+#    url: jdbc:postgresql://localhost:5432/sharp_bot
+#    username: 'postgres'
+#    password: '3812'
+    url: postgres://snnlczsmurzjqz:b77fd216b63ece24d5d32964fb8e3066c729b3e85cb66f436471c216df10f07e@ec2-34-248-169-69.eu-west-1.compute.amazonaws.com:5432/dchg0q675iv80u
+    username: snnlczsmurzjqz
+    password: b77fd216b63ece24d5d32964fb8e3066c729b3e85cb66f436471c216df10f07e
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+  servlet:
+    multipart:
+      max-request-size: 20MB
+      max-file-size: 20MB
+
+
+telegram_bot_username: official_support_company_bot
+telegram_bot_botToken: 5535259100:AAE667Qew7HyRTa-ty4zd55_TV_MsB_kTGU
+special_code: '+998909741228 +998332002022'
+
+
+#https://matn.uz/
+
+
+#https://matn.uz/
+
